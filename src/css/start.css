@@ -1,0 +1,103 @@
+body {
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 200px;
+}
+
+.login-container {
+    border: solid 1px black;
+    max-width: 322px;
+    min-width: 322px;
+    min-height: 250px;
+    border-radius: 10px;
+
+    padding: 15px;
+    margin-left: 80px;
+
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    flex-direction: column;
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+form {
+    min-width: 150px;
+    max-width: 150px;
+    margin-left: 45px;
+}
+
+.bordering {
+    border: 1px solid #ccc;
+    min-width: 235px;
+}
+
+input {
+    margin-bottom: 8px;
+    padding: 8px;
+    border: solid 1px grey;
+    min-width: 220px;
+    border-radius: 5px;
+}
+
+button {
+    border: solid 1px grey;
+    padding: 7px;
+    min-width: 238px;
+}
+
+.login-btn {
+    margin-bottom: 25px;
+    background-color: rgba(0, 94, 255, 0.705);
+
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.create-btn {
+    min-width: 180px;
+    max-width: 180px;
+    background-color: rgba(0, 128, 0, 0.54);
+    margin-left: 75px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.small-text{
+    font-size: 12px;
+    color: grey;
+    min-width: 240px;
+    padding: 0px;
+}
+
+.brand-container {
+    max-width: 450px;
+    max-height: 200px;
+}
+
+.brand {
+    font-size: 40px;
+    font-weight: 1000;
+    color: rgba(0, 94, 255, 0.705);
+    margin: 0;
+    padding: 0;
+}
+
+.brand-info {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
